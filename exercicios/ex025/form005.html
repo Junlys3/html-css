@@ -12,8 +12,19 @@
     </h1>
     <form action="cadastro.php" method="get" autocomplete="on"> </form>
     <fieldset>
-        <legend>Esportes favoritos</legend>
-        <input type="checkbox" name="esfut" id="iesfut"> basquete
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="isxmas"> <label for="isxmas">Masculino</label>
+        <input type="radio" name="sexo" id="isxmm" checked>
+        <label for="isxmm">Feminino</label>
     </fieldset>
+    <fieldset>
+        <legend>Esportes favoritos</legend>
+        <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Basquete</label> <br>
+        <input type="checkbox" name="fut" id="ifut"> Futebol
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
 </body>
 </html>
