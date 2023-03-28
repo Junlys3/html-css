@@ -19,15 +19,15 @@ header h1{
     text-align: center;
 }
 
-nav{
-display: block;
+menu{
+    display: block;
 }
 
-nav > ul{
+menu > ul{
     list-style-type: none;
 }
 
-nav a{
+menu a{
     display: none;
     padding: 10px;
     text-decoration: none;
@@ -37,7 +37,7 @@ nav a{
     border-top: 2px solid rgba(0, 0, 0, 0.507);
 }
 
-nav a:hover{
+menu a:hover{
     background-color: lightgrey;
 }
 main{
@@ -70,3 +70,4 @@ article p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
