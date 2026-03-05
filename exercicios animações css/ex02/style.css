@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to right, rgb(103, 105, 243), rgb(21, 159, 177), rgb(241, 89, 89));
+    display: flex;
+    background-size: 300%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    animation: degrade 10s ease alternate infinite;
+   
+} 
+h1{
+    font: normal normal bold 400% sans-serif;
+    
+    color: white;
+}
+
+@keyframes degrade{
+  from {
+   background-position: 0 50%;
+   }
+  to {
+    background-position: 100% 50%;
+  }
+ 
+}
