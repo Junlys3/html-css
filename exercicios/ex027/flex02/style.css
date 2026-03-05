@@ -1,0 +1,15 @@
+.container{
+ background-color: lightcoral;
+
+ display: flex;
+ flex-direction: column;
+}
+
+.object{
+    background-color: rgb(63, 255, 72);
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
